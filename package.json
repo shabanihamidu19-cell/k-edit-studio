@@ -1,0 +1,31 @@
+{
+  "name": "k-edit-studio",
+  "version": "1.0.0",
+  "description": "K-EDIT STUDIO - Professional AI-Powered Video, Audio & Photo Editor for Android (Capacitor)",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx serve www -p 3000",
+    "build": "echo 'Web assets ready in www/'",
+    "cap:sync": "npx cap sync android",
+    "cap:open": "npx cap open android",
+    "cap:run": "npx cap run android",
+    "android:build": "cd android && ./gradlew assembleDebug"
+  },
+  "keywords": ["video-editor", "capcut", "capacitor", "android", "media3"],
+  "author": "K-Edit Studio",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@capacitor/android": "^6.1.2",
+    "@capacitor/app": "^6.0.1",
+    "@capacitor/camera": "^6.0.2",
+    "@capacitor/core": "^6.1.2",
+    "@capacitor/filesystem": "^6.0.1",
+    "@capacitor/haptics": "^6.0.1",
+    "@capacitor/keyboard": "^6.0.2",
+    "@capacitor/status-bar": "^6.0.1"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^6.1.2"
+  },
+  "type": "module"
+}
